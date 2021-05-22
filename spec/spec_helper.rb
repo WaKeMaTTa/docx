@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
+require 'pry'
+
 if ENV['COVERALLS_REPO_TOKEN']
   require 'coveralls'
 
